@@ -1,0 +1,23 @@
+a=int(input("Enter your salary:"))
+
+s=str(input("Enter your sex (Male/Female):"))
+
+
+
+if (s=="Male"):
+
+    print("Your special salary due to diwali festival:"+"Rs.", a+(a*(5/100)))
+
+if (s=="Female"):
+
+    print("Your special salary due to diwali festival:"+"Rs.", a+(a*(10/100)))
+
+if (s=="Male" and a<10000):
+
+    print("And also based on your salary:"+"Rs.", a+(a*(7/100)))
+
+if (s=="Female" and a<10000):
+
+    print("And also based on your salary:"+"Rs.", a+(a*(12/100)))
+
+
