@@ -1,0 +1,8 @@
+a=(reversed(input('enter the string:').split()))
+c=""
+for i in a:
+    c+=i
+    c+=" "
+print(c)
+Footer
+© 2022 GitHub, In
